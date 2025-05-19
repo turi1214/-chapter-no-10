@@ -1,0 +1,31 @@
+             # program no 1
+from pathlib import path
+
+print("--- Reading in the entire file:")
+path = path ('learing_phyton.text')
+contents = path.read_text()
+print(contents)
+
+print("\n---Looping over the lines:")
+lines = contents.splitlines()
+for line in lines:
+    print(line)
+
+
+            # program no 2
+message = "I realy like dogs."
+message.replace ('dog', 'cat')
+'I realy like cats'
+
+
+
+            # program no 3
+from pathlib import Path
+
+path = path('learing_phyton.text')
+contents = path.read_text()
+lines = contents.splitlines()
+for line in lines:
+    line =line.replace('Phyton', 'C')
+    print(line)
+
